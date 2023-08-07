@@ -1,0 +1,8 @@
+
+
+@media screen and (max-width: 800px) {
+    .parrafo {
+        margin: 0 10px;
+        font-size: 1.1rem;
+    }
+}
