@@ -34,7 +34,7 @@ const proyects = [
 
 function Proyects() {
     return (
-        <div className="container-fluid px-4 bg-dark-subtle py-5">
+        <div id='proyects' className="container-fluid px-4 bg-dark-subtle py-5">
             <h1 className='text-center my-5'>Proyectos</h1>
             <Row xs={2} md={4} className="g-4">
                 {proyects.map((proyect, idx) => (

@@ -3,13 +3,18 @@ import LinkItem from './LinkItem.js';
 const links=[
   {
     id:"1",
-    title:"Certificados",
-    href:"#"
+    title:"Educacion",
+    href:"#courses"
   },
   {
     id:"2",
+    title:"Proyectos",
+    href:"#proyects"
+  },
+  {
+    id:"3",
     title:"Skills",
-    href:"#"
+    href:"#skills"
   }
 ]
 

@@ -1,3 +1,4 @@
+import './courses.css'
 import { Card, Col, Row } from 'react-bootstrap/';
 
 const proyects = [
@@ -35,11 +36,11 @@ const proyects = [
 
 function Courses() {
     return (
-        <div className="container-fluid px-4 py-5">
+        <div id='courses' className="container-fluid px-4 py-5">
             <h1 className='text-center my-5'>Certificados</h1>
             <Row xs={2} md={4} className="g-4">
                 {proyects.map((proyect, idx) => (
-                    <Col key={idx} style={{height:"520px"}}>
+                    <Col key={idx} className='d-flex' style={{height:"520px"}}>
                         <Card className='h-100 shadow'>
                             <Card.Img style={{ maxHeight: "22rem", objectFit: "fill" }} variant="top" src={proyect.image} />
                             <Card.Body>

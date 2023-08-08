@@ -3,6 +3,15 @@
     height: 8rem;
 }
 
+#skills ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
 #js {
     color: yellow;
     background-color: black;
